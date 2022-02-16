@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main {
+            margin-top: 5rem;
+            background-color: rgba(95, 158, 160, 0.822);
+            padding: 1rem;
+            width: 50%;
+            text-align: center;
+            
+        }
+        section {
+            float: left;
+        }
+        p {
+            font-size: larger;
+            font-size: 20px;
+            
+            
+        }
+        #number {
+            width: 12rem;
+            height: 2rem;
+        }
+        #submit {
+            width: 7rem;
+            height: 2rem;
+            border-radius: 5px;
+            background-color:brown;
+            color: white;
+            padding: 4px;
+        }
+        h1 {
+            font-family: 'Syne Tactile', cursive;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>LotteryGame</h1>
+        <input type="number" name="number" id="number" min="0">
+        <input type="button" value="Lucky Numbers" id="submit">
+
+        
+        <div class="container"></div>
+        
+         
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
